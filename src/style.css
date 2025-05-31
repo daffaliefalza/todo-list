@@ -1,0 +1,86 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 2rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 4rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  width: 400px;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  padding: 0.5rem 1rem;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #005fcc;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 320px;
+}
+
+li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 0.5rem;
+  padding: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+}
+
+li button {
+  margin-left: 0.5rem;
+  font-size: 0.85rem;
+  padding: 0.3rem 0.6rem;
+  background-color: #888;
+}
+
+li button:first-of-type {
+  background-color: #28a745; /* Done/Undo button */
+}
+
+li button:last-of-type {
+  background-color: #dc3545; /* Delete button */
+}
+
+li button:hover {
+  opacity: 0.9;
+}
